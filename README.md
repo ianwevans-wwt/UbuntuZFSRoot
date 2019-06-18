@@ -1,7 +1,7 @@
 # UbuntuZFSRoot
 Modified set of scripts to automatically install ZFS root on Intel NUC w/ L2ARC
 
-This guide will describe the process to automatically install Ubuntu 18.04 with a full ZFS root on the following device:
+This guide will describe the process to automatically install Ubuntu 18.04 with a full ZFS root on any device with a single SATA/SAS with a single PCIe M.2 device for L2ARC caching.
 
 - Intel NUC with one SATA and one Intel Optane 16GB PCIe M.2.
 
