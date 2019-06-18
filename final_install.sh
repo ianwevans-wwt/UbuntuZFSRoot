@@ -15,6 +15,7 @@ echo PARTUUID=$(blkid -s PARTUUID -o value \
      /boot/efi vfat nofail,x-systemd.device-timeout=1 0 1 >> /etc/fstab
 mount /boot/efi
 apt install --yes grub-efi-amd64-signed shim-signed
+# Add optional packages here. This example is being built out for K12 students.
 apt install --yes nano
 apt install --yes edubuntu-desktop
 apt install --yes xubuntu-desktop
@@ -68,7 +69,6 @@ dpkg -i google-earth64.deb
 apt-get -f install; rm google-earth64.deb
 passwd local
 passwd
-hostname prbasesystem
 cp ./zfs-import-bpool.service /etc/systemd/system/
 systemctl enable zfs-import-bpool.service
 cp /usr/share/systemd/tmp.mount /etc/systemd/system/
