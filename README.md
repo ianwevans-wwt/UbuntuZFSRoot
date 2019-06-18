@@ -11,7 +11,7 @@ Note: This routine wipes out all information on both the SATA device and the Opt
 
 Instructions:
 
-1) Create a Ubuntu LiveUSB and place all of the script and config files in a new folder of your choice on the device.
+1) Create a Ubuntu LiveUSB and place all of the script and config files in a folder called scripts in the USB root.
 2) Modify the script to reflect the correct underlying disk ID's (e.g. /dev/sda).
 3) Run zfs_install.sh under the scripts folder on the USB drive.
 4) Once zfs_install.sh has completed, run final_install.sh. Reboot the system.
