@@ -82,7 +82,6 @@ chmod -R 777 /mnt/etc/scripts
 cp ./zfs-import-bpool.service /mnt/etc/scripts
 cp ./zfs.conf /mnt/etc/modprobe.d
 cp ./final_install.sh /mnt/etc/scripts
-cp ./final_scripts.sh /mnt/etc/scripts
 cp -r ./packages /mnt/etc/scripts
 cp ./zfs.conf /etc/modprobe.d
 chroot /mnt /bin/bash --login
