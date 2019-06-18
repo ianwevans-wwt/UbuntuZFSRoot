@@ -96,4 +96,3 @@ zfs snapshot rpool/ROOT/ubuntu@install
 exit
 mount | grep -v zfs | tac | awk '/\/mnt/ {print $3}' | xargs -i{} umount -lf {}
 zpool export -a
-echo Done! Reboot the machine and run final_scripts.sh under /etc/scripts to apply final settings.
