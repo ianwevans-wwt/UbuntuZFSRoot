@@ -16,3 +16,5 @@ Instructions:
 3) Run zfs_install.sh under the scripts folder on the USB drive.
 4) Once zfs_install.sh has completed, run final_install.sh. Reboot the system.
 5) Enjoy a fully functional Ubuntu system with ZFS root (rpool) and an L2ARC.
+
+This guide is a streamlined version of the ZFS Install guide here: https://github.com/zfsonlinux/zfs/wiki/Ubuntu-18.04-Root-on-ZFS
